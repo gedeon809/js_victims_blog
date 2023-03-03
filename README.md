@@ -2,7 +2,7 @@
 
 Bloc app is a simple web application that allows users to share a post, edit, like eetc
 
-Installation
+# Installation
 Clone the repository: git clone https://github.com/gedeon809/weight_tracker_app.git
 Install dependencies: npm install
 Start the app: npm start
@@ -11,7 +11,7 @@ To use the app, follow these steps:
 
 Navigate to http://localhost:3000 in your browser.
 
-Contributing
+# Contributing
 Contributions are welcome! To contribute to this project, please follow these steps:
 
 Fork the repository.
@@ -22,7 +22,7 @@ Open a pull request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Credits
+# Credits
 This project uses the following third-party libraries and resources:
 
 React Router
