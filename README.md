@@ -33,6 +33,8 @@ Redux
 Express
 Mongo
 Node
+cypress
+
 
 
 Contact
