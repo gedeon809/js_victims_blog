@@ -1,6 +1,6 @@
 # js_victims_blog
 
-Blog app is a simple web application that allows users to share a post, edit, like etc
+Bloc app is a simple web application that allows users to share a post, edit, like eetc
 
 # Installation
 Clone the repository: git clone https://github.com/gedeon809/weight_tracker_app.git
