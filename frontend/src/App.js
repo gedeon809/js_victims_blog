@@ -1,12 +1,24 @@
+import React from "react";
+import "./index.css";
+import { Navbar } from "./components/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Home } from "./components/Home";
+import { Login } from "./components/LogIn";
+import { Signup } from "./components/SignUp";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p className="text-3xl font-bold underline">
-        Hello world!
-      </p>
+    <div className="scroll-smooth">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="login" element={<Login />}></Route>
+          <Route path="signup" element={<Signup />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
