@@ -30,9 +30,15 @@ export const Login = () => {
           </p>
           <a
             href="#"
-            className="bg-black text-center text-white w-1/2 m-auto mb-8 px-2 py-1 rounded-sm font-semibold"
+            className="bg-black text-center text-white w-1/2 m-auto mb-4 px-2 py-1 rounded-sm font-semibold"
           >
             LOG IN
+          </a>
+          <a
+            href="/signup"
+            className="bg-black text-center text-white w-1/2 m-auto mb-8 px-2 py-1 rounded-sm font-semibold"
+          >
+            SIGN UP
           </a>
         </div>
       </main>
